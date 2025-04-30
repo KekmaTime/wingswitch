@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "wingswitch",
+	"version": "${version}",
+	"name": "WingSwitch",
+	"description": "A client-side utility mod for quickly swapping between elytra and chestplates",
+	"authors": [
+		"Damon"
+	],
+	"contact": {
+		"homepage": "https://github.com/KekmaTime/wingswitch",
+		"sources": "https://github.com/KekmaTime/wingswitch"
+	},
+	"license": "MIT",
+	"icon": "assets/wingswitch/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.kekmatime.wingswitch.WingSwitch"
+		],
+		"fabric-datagen": [
+			"net.kekmatime.wingswitch.DataGenerator"
+		],
+		"client": [
+			"net.kekmatime.wingswitch.WingSwitch"
+		]
+	},
+	"mixins": [
+		"wingswitch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
