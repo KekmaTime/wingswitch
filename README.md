@@ -6,6 +6,7 @@ A lightweight Minecraft Fabric mod that allows you to quickly swap between an el
 
 - Press the grave accent key (`) to instantly swap between your equipped elytra and any chestplate in your inventory
 - Works with all vanilla chestplates (leather, chainmail, iron, gold, diamond, netherite)
+- Compatible with all Minecraft 1.21.x versions
 - Client-side only - works on any server or singleplayer
 
 ## Installation
